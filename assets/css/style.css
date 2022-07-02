@@ -1,0 +1,43 @@
+header h1 {
+  color: purple;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+main h5 {
+  color: black;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic; }
+
+main p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+main .btn {
+  background-color: pink;
+  border-radius: 5%;
+  border-style: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+main .btn:hover {
+  background-color: palevioletred; }
+
+section h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px; }
+
+section .btn {
+  background-color: pink;
+  border-radius: 5%;
+  border-style: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+section .btn:hover {
+  background-color: palevioletred; }
+
+footer {
+  background-color: palevioletred;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-style: oblique; }
