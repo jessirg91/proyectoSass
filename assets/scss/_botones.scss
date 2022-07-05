@@ -1,0 +1,26 @@
+.btn
+{
+    background-color: pink;
+    border-radius: 5%;
+    border-style: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    &:hover
+            {
+                background-color:palevioletred;
+            }
+}
+
+.boton
+{
+    border: map-get($boton ,"borde");
+    padding: map-get($boton ,"padding");
+    border-radius: map-get($boton ,"radio");
+}
+
+.btn-primary
+{
+    @extend .boton;
+    background-color: rebeccapurple;
+    
+}
