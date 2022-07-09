@@ -4,4 +4,8 @@ footer
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-style: oblique;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
 }
