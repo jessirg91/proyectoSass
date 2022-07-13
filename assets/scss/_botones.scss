@@ -1,20 +1,23 @@
+
 .btn
 {
     background-color: pink;
-    border-radius: 5%;
-    border-style: none;
+    text-align: center;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5%;
+    border-style: solid black;
     &:hover
             {
                 background-color:palevioletred;
             }
 }
 
-
-.btn-primary
+.btn-enviar
 {
-    @extend .boton;
-    background-color: rebeccapurple;
-    
+    @extend .btn;
+    &:visited
+    {
+        background-color: purple;
+    }
+   
 }

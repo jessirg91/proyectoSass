@@ -1,0 +1,38 @@
+header
+{
+    h1 {
+        color: $colorTitulo;
+        font-family:$titulo1;
+    }
+}
+
+main
+    {
+        h2
+        {
+            color: $colorPrimario;
+            font-family: $titulo2;
+        }
+
+        h3 
+        {
+            color: $colorSecundario;
+            font-family: $titulo3;
+        }
+
+        p 
+        {
+            color: black;
+            font-family: $texto ;
+        }
+}
+
+
+footer
+{
+    background-color: palevioletred;
+    font-family: $texto;
+    color: black;
+    font-style: oblique;
+    width: 50px;
+}
