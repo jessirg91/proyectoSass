@@ -1,13 +1,21 @@
 header
 {
+    
     h1 {
         color: $colorTitulo;
         font-family:$titulo1;
+
     }
 }
 
 main
     {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+       
+
+
         h2
         {
             color: $colorPrimario;
@@ -25,6 +33,7 @@ main
             color: black;
             font-family: $texto ;
         }
+
 }
 
 
@@ -34,5 +43,5 @@ footer
     font-family: $texto;
     color: black;
     font-style: oblique;
-    width: 50px;
+    width: 100%;
 }

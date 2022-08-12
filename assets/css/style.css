@@ -2,8 +2,7 @@
   background-color: pink;
   text-align: center;
   color: black;
-  border-radius: 5%;
-  border-style: solid black; }
+  border-radius: 5%; }
   .btn:hover, .btn-enviar:hover {
     background-color: palevioletred; }
 
@@ -14,21 +13,23 @@ header h1 {
   color: purple;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 40px; }
 
-main h2 {
-  color: palevioletred;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 30px; }
-
-main h3 {
-  color: grey;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 25px; }
-
-main p {
-  color: black;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 15px; }
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+  main h2 {
+    color: palevioletred;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 30px; }
+  main h3 {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 25px; }
+  main p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 15px; }
 
 footer {
   background-color: palevioletred;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, 15px;
   color: black;
   font-style: oblique;
-  width: 50px; }
+  width: 100%; }
